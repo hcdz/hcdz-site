@@ -1,12 +1,12 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
-languageCode = "en-us"
+title = "汇诚鼎智"
+languageCode = "zh-CN"
 theme = "hugo-elate-theme"
 
 [params]
   
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  # custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
   author = ""
@@ -14,13 +14,13 @@ theme = "hugo-elate-theme"
   email = ""
   # Navigation
   [params.navigation]
-    brand = "Elate"
-    home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
-    contact = "Contact"
+    brand = "汇诚鼎智"
+    home = "主页"
+    work = "成功案例"
+    testimonials = "获得荣誉"
+    services = "服务"
+    about = "关于我们"
+    contact = "联系我们"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
