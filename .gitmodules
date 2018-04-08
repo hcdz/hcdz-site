@@ -1,6 +1,7 @@
 [submodule "themes/hugo-elate-theme"]
 	path = themes/hugo-elate-theme
-	url = https://github.com/saey55/hugo-elate-theme.git
+	url = git@github.com:hcdz/hugo-elate-theme.git
+	branch = master
 [submodule "public"]
 	path = public
 	url = git@github.com:hcdz/hcdz.github.io.git
