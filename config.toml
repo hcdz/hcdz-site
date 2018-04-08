@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "www.hcdz-hr.com"
 title = "汇诚鼎智"
 languageCode = "zh-CN"
 theme = "hugo-elate-theme"
