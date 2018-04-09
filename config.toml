@@ -47,31 +47,31 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "公司简介"
+    description = "南京汇诚鼎智企业管理咨询有限公司是一家聚焦于深度解决企业人力资源管理问题的公司。“共享HR中心”是汇诚鼎智的重点项目，旨在全面打造专业的跨组织共享HR中心。该项目致力于突破资源壁垒，在人力资源管理专业领域实现知识、经验和服务的多层次整合与共享。汇诚鼎智对不同客户群体均具备透彻的专业分析能力，提供个性化订制和多种组合解决方案，充分满足企业持续发展的需求。<br/><br/>"
     url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    # button = "Get In Touch"
+    icon = "icon-home"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "服务理念"
+    description = "企业的成长依托于人力资源的引导和开发。我们深知，有效的人力资源管理需要具备“顶天”（满足企业战略发展需要）和“立地”（符合管理现实，可以落地执行）的特点。我们的方案是在行业专家和专业团队通力合作下真正解决企业在不同发展阶段的人力资源管理遇到的问题。通过实用规范的方法激活企业内部人才能量、整合内外部协同资源、放大企业发展想象空间为前提条件，实现稳定的内部管理支撑力，为企业构建具有逻辑性、时空性、传承性的企业文化。"
     url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
+    # button = "Click Me"
+    icon = "icon-briefcase"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "我们的优势"
+    description = "① 人力资源行业二十几年丰富经验的专业学术及实战专家团队会诊；<br/>② 100%量身为企业定制适用于3-5年的全套的人力资源管理支撑方案；<br/> ③ 专长于团队正向激励、团队效能提升、企业文化传承，所涉案例基本达成率100%；<br/> ④ 为企业节约60%-90%的时间成本和40%-60%的人力成本；<br/> ⑤ 制造业、互联网、快消等多行业丰富项目管理和集团式人力体系构建、重建、二次开发经验和成功案例。"
     url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
+    # button = "Why us?"
+    icon = "icon-check"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -173,7 +173,7 @@ theme = "hugo-elate-theme"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -256,17 +256,18 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
-    form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    map = false
+    form = false
+    title = "联系我们"
+    description = ""
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-location-pin", "南京市江宁区高新园竹山路88号1-3F"],
+        ["icon-envelope", "info@hcdz-hr.com"],
+        ["icon-globe", '<a href="https://www.hcdz-hr.com/" target="_blank">www.hcdz-hr.com</a>'],
+        ["icon-bubbles", "njcxwen"],
+        ["icon-people", "QQ: 270029572"]
       ]
 
     name = "Name"
@@ -278,9 +279,7 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; hcdz-hr.com All Rights Reserved. <br>Created by <a href="http://hcdz-hr.com/" target="_blank">hcdz-hr.com</a>'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-ghost", ""],
       ]
