@@ -17,9 +17,9 @@ theme = "hugo-elate-theme"
     brand = "汇诚鼎智"
     home = "主页"
     services = "产品中心"
-    work = "成功案例"
-    testimonials = "资讯中心"
-    about = "关于我们"
+    work = "公司动态"
+    testimonials = "客户评价"
+    about = "核心团队"
     contact = "联系我们"
 
     # You can add custom links before or after the default links
@@ -39,8 +39,8 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "致力于专业的人力资源管理咨询服务"
+    subtitle = '企业愿景：助力中小企业成长，成就行业领袖品牌<br/> 企业使命：全面打造专业的跨组织共享HR中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> 企业目标：帮助中小企业节约管理成本，提升效率'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -52,7 +52,7 @@ theme = "hugo-elate-theme"
     url = "#"
     # button = "Get In Touch"
     icon = "icon-home"
-    img = "img_7.jpg"
+    # img = "img_10.jpg"
 
   [[params.intro.item]]
     title = "服务理念"
@@ -60,15 +60,15 @@ theme = "hugo-elate-theme"
     url = "#"
     # button = "Click Me"
     icon = "icon-briefcase"
-    img = "img_8.jpg"
+    # img = "img_10.jpg"
 
   [[params.intro.item]]
     title = "我们的优势"
-    description = "① 人力资源行业二十几年丰富经验的专业学术及实战专家团队会诊；<br/>② 100%量身为企业定制适用于3-5年的全套的人力资源管理支撑方案；<br/> ③ 专长于团队正向激励、团队效能提升、企业文化传承，所涉案例基本达成率100%；<br/> ④ 为企业节约60%-90%的时间成本和40%-60%的人力成本；<br/> ⑤ 制造业、互联网、快消等多行业丰富项目管理和集团式人力体系构建、重建、二次开发经验和成功案例。"
+    description = "① 人力资源行业二十几年丰富经验的专业学术及实战核心团队会诊；<br/>② 100%量身为企业定制适用于3-5年的全套的人力资源管理支撑方案；<br/> ③ 专长于团队正向激励、团队效能提升、企业文化传承，所涉案例基本达成率100%；<br/> ④ 为企业节约60%-90%的时间成本和40%-60%的人力成本；<br/> ⑤ 制造业、互联网、快消等多行业丰富项目管理和集团式人力体系构建、重建、二次开发经验和成功案例。"
     url = "#"
     # button = "Why us?"
     icon = "icon-check"
-    img = "img_10.jpg"
+    # img = "img_10.jpg"
 
   [params.intro.video]
     enable = false
@@ -81,7 +81,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "产品中心"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = ""
 
     [[params.services.item]]
       title = "卓越定制"
@@ -107,9 +107,9 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "成功案例"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "公司动态"
+    description = ""
+    footertext = ''
 
     [[params.work.row]]
       img = "work_1.jpg"
@@ -150,7 +150,7 @@ theme = "hugo-elate-theme"
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "资讯中心"
+    title = "客户评价"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
@@ -214,44 +214,55 @@ theme = "hugo-elate-theme"
   # About section
   [params.about]
     enable = true
-    title = "关于我们"
+    title = "核心团队"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "迦月"
+      position = ""
+      description = "20年企业管理及人力资源管理实战经验，深耕人力资源管理六大模块。曾在排名前三的国际最具价值互联网企业任HRD，国内第一家纽交所上市的汽车贸易集团HRD，《现代快报》特约撰稿人<br/><br/>"
       img = "person1.jpg"
       alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
+      # social = [
+      #   ["icon-twitter", "#"],
+      #   ["icon-facebook", "#"],
+      #   ["icon-linkedin", "#"]
+      # ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "禾雅"
+      position = ""
+      description = "管理学博士，研究方向为组织发展与人力资源管理，在HR、IR、OB等领域发表论文十余篇，被SCI、SCCI、CSSCI等国内外权威索引收录。参与国家自然科学基金项目、国家社会科学基金项目、省部级项目共十余项"
       img = "person2.jpg"
       alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "清境"
+      position = ""
+      description = "10余年人力资源管理及猎头实战经验，近10年IT与互联网行业HR及猎头从业经验，擅长人岗匹配，结合战略和业务激发人才能动性<br/><br/><br/>"
       img = "person3.jpg"
       alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+
+    [[params.about.item]]
+      name = "艾文"
+      position = ""
+      description = "近30年企业管理和营销管理经验，丰富的快消、连锁零售行业营销实战经验。擅长营销团队建设、绩效激励、品牌市场拓展…曾就职于国内500强企业、电器连锁前三强企业<br/>"
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[params.about.item]]
+      name = "捷凡"
+      position = ""
+      description = "深耕绩效管理领域近20年，丰富快消连锁集团、制造业、互联网行业从业经验。擅长绩效薪酬体系的正向激励（BSC/KPI/OKR…）在制造行业、快消行业有丰富经验积累<br/>"
+      img = "person1.jpg"
+      alt = "Person3"
+
+    [[params.about.item]]
+      name = "贝蒂"
+      position = ""
+      description = "员工关系管理专家，20多年IT、快消等行业HR从业经验。擅长企业文化建设、员工价值观引导、心理咨询服务、员工冲突管理、员工沟通管理、员工奖惩管理、岗位轮换等"
+      img = "person2.jpg"
+      alt = "Person3"
 
 
   # Contact section
@@ -267,7 +278,7 @@ theme = "hugo-elate-theme"
         ["icon-location-pin", "南京市江宁区高新园竹山路88号1-3F"],
         ["icon-envelope", "info@hcdz-hr.com"],
         ["icon-globe", '<a href="https://www.hcdz-hr.com/" target="_blank">www.hcdz-hr.com</a>'],
-        ["icon-bubbles", "njcxwen"],
+        ["icon-bubbles", "HR-volunteer"],
         ["icon-people", "QQ: 270029572"]
       ]
 
@@ -282,5 +293,5 @@ theme = "hugo-elate-theme"
     enable = true
     copyright = '&copy; hcdz-hr.com All Rights Reserved. <br>Created by <a href="http://hcdz-hr.com/" target="_blank">hcdz-hr.com</a>'
     links = [
-        ["icon-ghost", ""],
+        ["icon-ghost", "#"],
       ]
