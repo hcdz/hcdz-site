@@ -84,22 +84,23 @@ theme = "hugo-elate-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "卓越定制"
+      description = "为企业量身定制人力资源管理整体或各模块（如绩效、培训等）的深层解决方案，并有计划地落地执行 <br/> 适用于希望深度改造人力资源管理现状、显著提高现有人员专业能力与素养的企业"
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "HR管家"
+      description = "帮助企业快速建立规范化、流程化和细节化的基础人力资源体系（包括制度制定及各模块建设等），并有计划地落地执行 <br/>适用于人员管理跟不上业务发展节奏、需要尽快完成基础人力资源管理建设并投入使用的成长型企业 "
       icon = "icon-layers2"
+
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "蜜蜂服务"
+      description = "为多家企业协理人力资源管理中的基础事项，减轻企业事务负担 <br/> 适用于园区、孵化器、协会、联盟等大客户"
       icon = "icon-video2"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      title = "咨询服务"
+      description = "为企业提供人力资源管理问题的全面解答与建议 <br/> 适用于所有希望提升人力资源管理质量及效率的企业"
       icon = "icon-monitor"
 
 
