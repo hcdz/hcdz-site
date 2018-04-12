@@ -6,6 +6,7 @@ theme = "hugo-elate-theme"
 
 [params]
   
+  staticDir = ["static"]
   # custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
@@ -112,37 +113,37 @@ theme = "hugo-elate-theme"
     footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
+      img = "1.jpg"
       alt = "Image2"
       title = "Project 1"
       subtitle = "Branding"
 
     [[params.work.row]]
-      img = "work_2.jpg"
+      img = "2.jpg"
       alt = "Image2"
       title = "Project 2"
       subtitle = "Design"
 
     [[params.work.row]]
-      img = "work_3.jpg"
+      img = "3.jpg"
       alt = "Image3"
       title = "Project 3"
       subtitle = "Design"
 
     [[params.work.row]]
-      img = "work_4.jpg"
+      img = "4.jpg"
       alt = "Image4"
       title = "Project 4"
       subtitle = "Design"
 
     [[params.work.row]]
-      img = "work_5.jpg"
+      img = "5.jpg"
       alt = "Image5"
       title = "Project 5"
       subtitle = "Design"
 
     [[params.work.row]]
-      img = "work_6.jpg"
+      img = "6.jpg"
       alt = "Image6"
       title = "Project 6"
       subtitle = "Design"
@@ -215,14 +216,14 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "核心团队"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = ""
 
     [[params.about.item]]
       name = "迦月"
       position = ""
       description = "20年企业管理及人力资源管理实战经验，深耕人力资源管理六大模块。曾在排名前三的国际最具价值互联网企业任HRD，国内第一家纽交所上市的汽车贸易集团HRD，《现代快报》特约撰稿人<br/><br/>"
-      img = "person1.jpg"
-      alt = "Person1"
+      img = "F4.png"
+      alt = "迦月"
       # social = [
       #   ["icon-twitter", "#"],
       #   ["icon-facebook", "#"],
@@ -233,36 +234,36 @@ theme = "hugo-elate-theme"
       name = "禾雅"
       position = ""
       description = "管理学博士，研究方向为组织发展与人力资源管理，在HR、IR、OB等领域发表论文十余篇，被SCI、SCCI、CSSCI等国内外权威索引收录。参与国家自然科学基金项目、国家社会科学基金项目、省部级项目共十余项"
-      img = "person2.jpg"
-      alt = "Person2"
+      img = "F2.png"
+      alt = "禾雅"
 
     [[params.about.item]]
       name = "清境"
       position = ""
       description = "10余年人力资源管理及猎头实战经验，近10年IT与互联网行业HR及猎头从业经验，擅长人岗匹配，结合战略和业务激发人才能动性<br/><br/><br/>"
-      img = "person3.jpg"
-      alt = "Person3"
+      img = "F1.png"
+      alt = "清境"
 
     [[params.about.item]]
       name = "艾文"
       position = ""
       description = "近30年企业管理和营销管理经验，丰富的快消、连锁零售行业营销实战经验。擅长营销团队建设、绩效激励、品牌市场拓展…曾就职于国内500强企业、电器连锁前三强企业<br/>"
-      img = "person3.jpg"
-      alt = "Person3"
+      img = "M3.png"
+      alt = "艾文"
 
     [[params.about.item]]
       name = "捷凡"
       position = ""
       description = "深耕绩效管理领域近20年，丰富快消连锁集团、制造业、互联网行业从业经验。擅长绩效薪酬体系的正向激励（BSC/KPI/OKR…）在制造行业、快消行业有丰富经验积累<br/>"
-      img = "person1.jpg"
-      alt = "Person3"
+      img = "M4.png"
+      alt = "捷凡"
 
     [[params.about.item]]
       name = "贝蒂"
       position = ""
       description = "员工关系管理专家，20多年IT、快消等行业HR从业经验。擅长企业文化建设、员工价值观引导、心理咨询服务、员工冲突管理、员工沟通管理、员工奖惩管理、岗位轮换等"
-      img = "person2.jpg"
-      alt = "Person3"
+      img = "F3.png"
+      alt = "贝蒂"
 
 
   # Contact section
