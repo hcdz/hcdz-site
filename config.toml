@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "www.hcdz-hr.com"
-title = "汇诚鼎智"
+title = "南京汇诚鼎智企业管理咨询有限公司"
 languageCode = "zh-CN"
 theme = "hugo-elate-theme"
 
@@ -15,7 +15,7 @@ theme = "hugo-elate-theme"
   email = ""
   # Navigation
   [params.navigation]
-    brand = "汇诚鼎智"
+    brand = "南京汇诚鼎智企业管理咨询有限公司"
     home = "主页"
     services = "产品中心"
     work = "公司动态"
