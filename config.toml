@@ -15,11 +15,11 @@ theme = "hugo-elate-theme"
   email = ""
   # Navigation
   [params.navigation]
-    brand = "南京汇诚鼎智企业管理咨询有限公司"
+    brand = "汇诚鼎智"
     home = "主页"
     services = "产品中心"
     work = "公司动态"
-    testimonials = "客户评价"
+    testimonials = "典型案例"
     about = "核心团队"
     contact = "联系我们"
 
@@ -82,7 +82,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "产品中心"
-    description = ""
+    description = "针对企业在不同发展阶段的个性化需求，推出差异化的产品方案，提供覆盖人力资源各个模块、流程和细节的规范服务。"
 
     [[params.services.item]]
       title = "卓越定制"
@@ -151,7 +151,7 @@ theme = "hugo-elate-theme"
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "客户评价"
+    title = "典型案例"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
@@ -216,12 +216,12 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "核心团队"
-    description = ""
+    description = "深耕专业、实战为先，我们的团队由在不同行业背景下具有丰富经验的成员组成，以“脚踏实地，用心积累”的精神帮助企业解决问题。"
 
     [[params.about.item]]
       name = "迦月"
       position = ""
-      description = "20年企业管理及人力资源管理实战经验，深耕人力资源管理六大模块。曾在排名前三的国际最具价值互联网企业任HRD，国内第一家纽交所上市的汽车贸易集团HRD，《现代快报》特约撰稿人<br/><br/>"
+      description = "20年企业管理及人力资源管理实战经验，深耕人力资源管理六大模块。曾在排名前三的国际最具价值互联网企业任HRD，国内第一家纽交所上市的汽车贸易集团HRD，《现代快报》特约撰稿人<br/>"
       img = "F4.png"
       alt = "迦月"
       # social = [
@@ -233,16 +233,9 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "禾雅"
       position = ""
-      description = "管理学博士，研究方向为组织发展与人力资源管理，在HR、IR、OB等领域发表论文十余篇，被SCI、SCCI、CSSCI等国内外权威索引收录。参与国家自然科学基金项目、国家社会科学基金项目、省部级项目共十余项"
+      description = "管理学博士，研究方向为组织发展与人力资源管理，在HR、IR、OB等领域发表论文十余篇，被SCI、SCCI、CSSCI等国内外权威索引收录。参与国家及省部级管理类项目共十余项"
       img = "F2.png"
       alt = "禾雅"
-
-    [[params.about.item]]
-      name = "清境"
-      position = ""
-      description = "10余年人力资源管理及猎头实战经验，近10年IT与互联网行业HR及猎头从业经验，擅长人岗匹配，结合战略和业务激发人才能动性<br/><br/><br/>"
-      img = "F1.png"
-      alt = "清境"
 
     [[params.about.item]]
       name = "艾文"
@@ -254,16 +247,23 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "捷凡"
       position = ""
-      description = "深耕绩效管理领域近20年，丰富快消连锁集团、制造业、互联网行业从业经验。擅长绩效薪酬体系的正向激励（BSC/KPI/OKR…）在制造行业、快消行业有丰富经验积累<br/>"
+      description = "绩效管理专家，深耕绩效管理领域近20年。丰富的快消连锁集团、制造业、互联网行业从业经验。擅长绩效薪酬体系的正向激励（BSC/KPI/OKR…）<br/><br/>"
       img = "M4.png"
       alt = "捷凡"
 
     [[params.about.item]]
-      name = "贝蒂"
+      name = "贝迪"
       position = ""
       description = "员工关系管理专家，20多年IT、快消等行业HR从业经验。擅长企业文化建设、员工价值观引导、心理咨询服务、员工冲突管理、员工沟通管理、员工奖惩管理、岗位轮换等"
-      img = "F3.png"
-      alt = "贝蒂"
+      img = "M1.png"
+      alt = "贝迪"
+
+    [[params.about.item]]
+      name = "清境"
+      position = ""
+      description = "10余年人力资源管理及猎头实战经验，近10年IT与互联网行业HR及猎头从业经验，擅长人岗匹配，结合战略和业务激发人才能动性<br/><br/>"
+      img = "F1.png"
+      alt = "清境"
 
 
   # Contact section
