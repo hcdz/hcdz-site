@@ -8,6 +8,7 @@ theme = "hugo-elate-theme"
   
   staticDir = ["static"]
   # custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/custom.css"]
 
   # Meta
   author = ""
@@ -152,23 +153,48 @@ theme = "hugo-elate-theme"
   [params.testimonials]
     enable = true
     title = "典型案例"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = ""
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = '
+1.&nbsp;企业运营管理诊断<br/>
+2.&nbsp;HR基础运行制度量身定制<br/>
+3.&nbsp;HR基础管理实操流程定制<br/>
+4.&nbsp;企业规范制度建设<br/>
+5.&nbsp;业务管理及实施工具<br/>
+6.&nbsp;HR管理咨询建议<br/>
+7.&nbsp;劳动风险提示及风险规避指导<br/>
+'
+      person = '某科技公司HR基础运行体系设计<br/><span class="subtext">服务周期：3+9</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = '
+1.&nbsp;高绩效管理团队的建设<br/>
+2.&nbsp;业绩翻番团队的打造<br/>
+3.&nbsp;营销团队的商务礼仪<br/>
+4.&nbsp;HR规划对企业发展的帮助<br/>
+5.&nbsp;招聘原来不简单<br/>
+6.&nbsp;溶于血脉的企业文化打造<br/>
+7.&nbsp;员工激励的有效组合拳<br/>
+8.&nbsp;如何做好人才梯队建设<br/>
+9.&nbsp;......
+'
+      person = '某行业协会管理培训课程开发<br/><span class="subtext">服务周期：12</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = '
+1.&nbsp;企业运营管理诊断<br/>
+2.&nbsp;组织结构优化（部门、岗位）<br/>
+3.&nbsp;薪酬体系和激励机制优化<br/>
+4.&nbsp;绩效管理体系优化<br/>
+5.&nbsp;薪酬和绩效体系方案落地实施<br/>
+6.&nbsp;薪酬和绩效体系方案跟踪辅导<br/>
+'
+      person = '某金融服务公司薪酬绩效体系重建<br/><span class="subtext">服务周期：6+18</span>'
       img = "person3.jpg"
       alt = "Person3"
     
@@ -288,6 +314,15 @@ theme = "hugo-elate-theme"
     phone = "Phone"
     message = "Message"
     button = "Send message"
+
+
+  [params.download]
+    details = [
+        ["icon-cloud-download", "知识手册.pdf", "#"],
+        ["icon-cloud-download", "调研报告.pdf", '#'],
+        ["icon-cloud-download", '宣传册.pdf', '#'],
+      ]
+
 
   # Footer section
   [params.footer]
