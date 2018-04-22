@@ -116,38 +116,38 @@ theme = "hugo-elate-theme"
     [[params.work.row]]
       img = "1.jpg"
       alt = "Image2"
-      title = "某交通科技公司培训现场"
-      subtitle = ""
+      title = ""
+      subtitle = "某交通科技公司培训现场"
 
     [[params.work.row]]
       img = "2.jpg"
       alt = "Image2"
-      title = "某软件公司人才发展项目研讨"
-      subtitle = ""
+      title = ""
+      subtitle = "某软件公司人才发展项目研讨"
 
     [[params.work.row]]
       img = "3.jpg"
       alt = "Image3"
-      title = "南京市中小企业协会会员代表大会"
-      subtitle = ""
+      title = ""
+      subtitle = "南京市中小企业协会会员代表大会"
 
     [[params.work.row]]
       img = "4.jpg"
       alt = "Image4"
-      title = "某信息技术公司项目沟通现场"
-      subtitle = ""
+      title = ""
+      subtitle = "某信息技术公司项目沟通现场"
 
     [[params.work.row]]
       img = "5.jpg"
       alt = "Image5"
-      title = "南京大学MBA实训基地揭牌仪式"
-      subtitle = ""
+      title = ""
+      subtitle = "南京大学MBA实训基地揭牌仪式"
 
     [[params.work.row]]
       img = "6.jpg"
       alt = "Image6"
-      title = "某交通集团项目需求调研会"
-      subtitle = ""
+      title = ""
+      subtitle = "某交通集团项目需求调研会"
 
   # Testimonials section
   [params.testimonials]
@@ -166,7 +166,7 @@ theme = "hugo-elate-theme"
 7.&nbsp;员工关系管理<br/>
 8.&nbsp;劳动风险规避管理<br/>
 '
-      person = '某科技公司HR基础运行体系设计<br/><span class="subtext">服务周期：3+9</span>'
+      person = '某科技公司HR基础运行体系设计&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><span class="subtext">服务周期：3+9</span>'
       img = "person1.jpg"
       alt = "Person1"
 
@@ -181,7 +181,7 @@ theme = "hugo-elate-theme"
 7.&nbsp;员工激励的有效组合拳<br/>
 8.&nbsp;如何做好人才梯队建设<br/>
 '
-      person = '某行业协会管理培训课程开发<br/><span class="subtext">服务周期：12</span>'
+      person = '某行业协会管理培训课程开发&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><span class="subtext">服务周期：12</span>'
       img = "person2.jpg"
       alt = "Person2"
       
@@ -209,7 +209,7 @@ theme = "hugo-elate-theme"
 5.&nbsp;薪酬和绩效体系方案落地实施<br/>
 6.&nbsp;薪酬和绩效体系方案跟踪辅导<br/>
 '
-      person = '某金融服务公司薪酬绩效体系重建<br/><span class="subtext">服务周期：6+18</span>'
+      person = '某金融服务公司薪酬绩效体系重建&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><span class="subtext">服务周期：6+18</span>'
       img = "person3.jpg"
       alt = "Person3"
         
@@ -225,7 +225,7 @@ theme = "hugo-elate-theme"
 8.&nbsp;发工资差几天发影响不大？<br/>
 9.&nbsp;细节决定成败<br/>
 '
-      person = '某电子商务公司BOSS私教基础辅导课程<br/><span class="subtext">服务周期：12</span>'
+      person = '某电商公司BOSS私教基础辅导课程&nbsp;&nbsp;<br/><span class="subtext">服务周期：12</span>'
       img = "person1.jpg"
       alt = "Person1"
 
@@ -239,7 +239,7 @@ theme = "hugo-elate-theme"
 5.&nbsp;劳动纠纷如何化解<br/>
 6.&nbsp;...
 '
-      person = '某制造业公司人才管理项目<br/><span class="subtext">服务周期：3+9</span>'
+      person = '某制造业公司人才管理项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><span class="subtext">服务周期：3+9</span>'
       img = "person2.jpg"
       alt = "Person2"
 
@@ -350,7 +350,7 @@ theme = "hugo-elate-theme"
         ["icon-location-pin", "南京市江宁区高新园竹山路88号1-3F"],
         ["icon-envelope", "info@hcdz-hr.com"],
         ["icon-globe", '<a href="https://www.hcdz-hr.com/" target="_blank">www.hcdz-hr.com</a>'],
-        ["icon-bubbles", "HR-volunteer"],
+        ["icon-bubbles", "公众号: HR-volunteer"],
         ["icon-people", "QQ: 270029572"]
       ]
 
@@ -363,9 +363,9 @@ theme = "hugo-elate-theme"
 
   [params.download]
     details = [
-        ["icon-cloud-download", "知识手册.pdf", "#"],
-        ["icon-cloud-download", "调研报告.pdf", '#'],
-        ["icon-cloud-download", '宣传册.pdf', '#'],
+        ["icon-cloud-download", "知识手册下载", "/downloads/汇诚鼎智2018知识手册.pdf"],
+        ["icon-cloud-download", "调研报告下载", '#'],
+        ["icon-cloud-download", '宣传册下载', '#'],
       ]
 
 
