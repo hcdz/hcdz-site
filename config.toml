@@ -116,38 +116,38 @@ theme = "hugo-elate-theme"
     [[params.work.row]]
       img = "1.jpg"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      title = "某交通科技公司培训现场"
+      subtitle = ""
 
     [[params.work.row]]
       img = "2.jpg"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      title = "某软件公司人才发展项目研讨"
+      subtitle = ""
 
     [[params.work.row]]
       img = "3.jpg"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      title = "南京市中小企业协会会员代表大会"
+      subtitle = ""
 
     [[params.work.row]]
       img = "4.jpg"
       alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      title = "某信息技术公司项目沟通现场"
+      subtitle = ""
 
     [[params.work.row]]
       img = "5.jpg"
       alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      title = "南京大学MBA实训基地揭牌仪式"
+      subtitle = ""
 
     [[params.work.row]]
       img = "6.jpg"
       alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = "某交通集团项目需求调研会"
+      subtitle = ""
 
   # Testimonials section
   [params.testimonials]
