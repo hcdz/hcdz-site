@@ -364,7 +364,7 @@ theme = "hugo-elate-theme"
   [params.download]
     details = [
         ["icon-cloud-download", "知识手册下载", "/downloads/汇诚鼎智2018知识手册.pdf"],
-        ["icon-cloud-download", "调研报告下载", '#'],
+        ["icon-cloud-download", "调研报告下载", '/downloads/【汇诚鼎智】中小微企业管理需求调研走访报告.pdf'],
         ["icon-cloud-download", '宣传册下载', '#'],
       ]
 
