@@ -347,11 +347,10 @@ theme = "hugo-elate-theme"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-location-pin", "南京市江宁区高新园竹山路88号1-3F"],
-        ["icon-envelope", "info@hcdz-hr.com"],
+        ["icon-location-pin", "南京市江宁区高新园竹山路88号1-3 F"],
+        ["icon-envelope", '<a href="mailto:info@hcdz-hr.com">info@hcdz-hr.com</a>'],
         ["icon-globe", '<a href="https://www.hcdz-hr.com/" target="_blank">www.hcdz-hr.com</a>'],
         ["icon-bubbles", "公众号: HR-volunteer"],
-        ["icon-people", "QQ: 270029572"]
       ]
 
     name = "Name"
